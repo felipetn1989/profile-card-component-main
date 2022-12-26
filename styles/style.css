@@ -115,10 +115,18 @@ img {
 
 @media screen and (min-width:992px) {
     .card {
-        scale: 1.5;
+        width: 450px;
+        height: 480px;
     }
 
-    .attribution {
-        margin-top: 12em;
+    .personal {
+        margin-top: 15%;
+    }
+
+    .stats {
+        height: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
