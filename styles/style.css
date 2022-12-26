@@ -112,21 +112,3 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
-
-@media screen and (min-width:992px) {
-    .card {
-        width: 450px;
-        height: 480px;
-    }
-
-    .personal {
-        margin-top: 15%;
-    }
-
-    .stats {
-        height: 25%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
