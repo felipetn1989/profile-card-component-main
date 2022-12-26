@@ -41,11 +41,12 @@ body {
     position: relative;
     background-color: white;
     width: 325px;
-    height: 380px;
+    min-height: 380px;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.397);
+    transition: all .5s;
 }
 
 .top {
@@ -67,19 +68,19 @@ img {
 
 .personal {
     margin-top: 20%;
-    margin-bottom: 10px;
-    line-height: 23px;
+    margin-bottom: .75em;
+    line-height: 1.5rem;
     border-bottom: 1px solid rgb(236, 236, 236);
-    padding-bottom: 15px;
+    padding-bottom: .75rem;
 }
 
 .name {
     color: var(--Very-dark-desaturated-blue);
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 .city {
-    font-size: .8em;
+    font-size: .8125rem;
 }
 
 .stats {
@@ -92,14 +93,14 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: .7em;
+    font-size: .6875rem;
 }
 
 .qty {
-    font-size: 1.6em;
+    font-size: 1.125rem;
     color: var(--Very-dark-desaturated-blue);
     font-weight: 900;
-    margin-bottom: 5px;
+    margin-bottom: .4375rem;
 }
 
 .attribution {
@@ -110,4 +111,14 @@ img {
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width:992px) {
+    .card {
+        scale: 1.5;
+    }
+
+    .attribution {
+        margin-top: 12em;
+    }
 }
