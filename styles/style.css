@@ -95,8 +95,8 @@ body {
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position-x: -10rem, 10rem;
-  background-position-y: -10rem, 35rem;
+  background-position-x: -10rem, 55rem;
+  background-position-y: -20rem, 25rem;
   background-size: contain;
   display: flex;
   flex-direction: column;
